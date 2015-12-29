@@ -38,6 +38,7 @@
         android:text="Small Text"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
+<<<<<<< HEAD
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -47,5 +48,14 @@
         android:layout_toRightOf="@+id/textView2"
         android:text="Johan"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+=======
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_below="@+id/textView3"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+>>>>>>> 95eb984... added star
 
 </RelativeLayout>
